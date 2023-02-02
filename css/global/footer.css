@@ -52,7 +52,7 @@
 @media (max-width: 800px) {
     .footer-logo > img {
         display: none;
-    }    
+    }
     .footer {
         grid-template-columns: 1fr 1fr;
     }
