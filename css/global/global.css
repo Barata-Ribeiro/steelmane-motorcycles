@@ -17,6 +17,7 @@ blockquote {
 }
 ul {
     list-style: none;
+    padding: 0px;
 }
 a {
     text-decoration: none;
