@@ -48,6 +48,7 @@
 }
 .tecnologia-vantagens p {
     margin-bottom: 8px;
+    max-width: 35ch;
 }
 
 @media (max-width: 800px) {
