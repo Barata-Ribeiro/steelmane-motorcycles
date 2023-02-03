@@ -18,6 +18,7 @@
 
 /* Motocicletas */
 @import "./motocicletas/motocicletas-lista.css";
+@import "./motocicletas/motocicletas.css";
 
 /* Seguros */
 @import "./termos/termos.css";
