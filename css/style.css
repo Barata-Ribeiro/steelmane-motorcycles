@@ -22,5 +22,9 @@
 @import "./motocicletas/motocicletas-lista.css";
 @import "./motocicletas/motocicletas.css";
 
+/* Motocicleta-interna */
+@import "./motocicleta/motocicleta.css";
+@import "./motocicleta/seguro.css";
+
 /* Termos */
 @import "./termos/termos.css";
