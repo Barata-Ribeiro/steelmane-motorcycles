@@ -15,10 +15,12 @@
 
 /* Seguros */
 @import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
 
 /* Motocicletas */
 @import "./motocicletas/motocicletas-lista.css";
 @import "./motocicletas/motocicletas.css";
 
-/* Seguros */
+/* Termos */
 @import "./termos/termos.css";
