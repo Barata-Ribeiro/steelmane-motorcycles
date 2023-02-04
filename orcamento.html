@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato | SteelMane Motorcycles</title>
-    <meta name="description" content="Entre em contato conosco.">
+    <title>Orçamento | SteelMane Motorcycles</title>
+    <meta name="description" content="Faça um orçamento conosco para que seja proporcionada a melhor escolha de motocicleta para você.">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather:ital,wght@1,900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
-<body id="contato">
+<body id="orcamento">
     <header class="header-bg">
         <div class="header container">
             <a href="./">
@@ -43,93 +43,120 @@
     <main>
         <div class="titulo-bg">
             <div class="titulo container">
-                <p class="font-2-l-b cor-5">Resposta em até 24 horas</p>
-                <h1 class="font-1-xxl cor-0">nosso contato<span class="cor-p1">.</span></h1>
+                <p class="font-2-l-b cor-5">Cotações no seu email</p>
+                <h1 class="font-1-xxl cor-0">solicite um orçamento<span class="cor-p1">.</span></h1>
             </div>
         </div>
 
-        <div class="contato container">
-            <section class="contato-dados" aria-label="Endereço">
-                <h2 class="font-2-m cor-0">Loja Online</h2>
-                <div class="contato-endereco font-2-s cor-4">
-                    <p>Rua do Chapéu, 69</p>
-                    <p>Rio de Janeiro, RJ</p>
-                    <p>Brasil - Terra - Via Láctea</p>
-                </div>
-                <address class="contato-meios font-2-s cor-4">
-                    <a href="mailto:vendas@steelmane.com">vendas@steelmane.com</a>
-                    <a href="mailto:assistencia@steelmane.com">assistencia@steelmane.com</a>
-                    <a href="tel:+552199999999">+55 21 99999-9999</a>
-                </address>
-                <div class="contato-redes">
-                    <a href="https://www.instagram.com/">
-                        <img src="./img/redes/instagram-p.svg" alt="Instagram">
-                    </a>
-                    <a href="https://www.facebook.com/">
-                        <img src="./img/redes/facebook-p.svg" alt="Facebook">
-                    </a>
-                    <a href="https://www.youtube.com/">
-                        <img src="./img/redes/youtube-p.svg" alt="YouTube">
-                    </a>
-                </div>
-            </section>
-            <section class="contato-formulario" aria-label="Formulário">
-                <form class="form" action="./contato.html">
-                    <div>
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome">
-                    </div>
-                    <div>
-                        <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" name="telefone" placeholder="(24) 99999-9999">
-                    </div>
-                    <div class="col-2">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="contato@email.com">
-                    </div>
-                    <div class="col-2">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
-                    </div>
-                    <button class="botao col-2">Enviar Mensagem</button>
-                </form>
-            </section>
-        </div>
+        <form class="orcamento container" action="./">
+            <div class="orcamento-produto">
+                <h2 class="font-1-xs-b cor-5">Motocicleta ou Seguro</h2>
 
-        <article class="lojas container">
-            <h2 class="font-1-xxl">lojais locais<span class="cor-p1">.</span></h2>
-            <div class="lojas-item">
-                <img src="./img/lojas/rj.jpg" alt="Mapa marcando o endereço em Rua do Chapéu, 69 - Rio de Janeiro, RJ">
-                <div class="lojas-conteudo">
-                    <h3 class="font-1-xl">Rio de Janeiro</h3>
-                    <div class="lojas-dados font-2-s cor-8">
-                        <p>Rua do Chapéu, 69</p>
-                        <p>Rio de Janeiro - RJ</p>
+                <input type="radio" name="tipo" value="steelmane" id="steelmane">
+                <label for="steelmane">SteelMane</label>
+                <input type="radio" name="tipo" value="seguro" id="seguro">
+                <label for="seguro">Seguro</label>
+
+                <div class="orcamento-conteudo" id="orcamento-steelmane">
+                    <h2 class="font-1-xs-b cor-5">Escolha a sua</h2>
+
+                    <input type="radio" name="produto" value="stallion" id="stallion">
+                    <label for="stallion">Black Stallion <span>R$ 105.000</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs-b cor-8">
+                            <li><img src="./img/icones/velocidade.svg" alt="">1860 cilindradas</li>
+                            <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                            <li><img src="./img/icones/motocicleta.svg" alt="">Câmbio Mecânico</li>
+                            <li><img src="./img/icones/capacete.svg" alt="">Inclinação reduzida</li>
+                        </ul>
+                        <img src="./img/motocicletas/bs-small.jpg" alt="">
                     </div>
-                    <div class="lojas-dados font-2-s cor-8">
-                        <a href="mailto:rj@steelmane.com">rj@steelmane.com</a>
-                        <a href="tel:+552199999999">+55 21 99999-9999</a>
+
+                    <input type="radio" name="produto" value="intrepid" id="intrepid">
+                    <label for="intrepid">Intrepid 261 <span>R$ 55.000</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs-b cor-8">
+                            <li><img src="./img/icones/velocidade.svg" alt="">640 cilindradas</li>
+                            <li><img src="./img/icones/carbono.svg" alt="">Tubular de Aço</li>
+                            <li><img src="./img/icones/motocicleta.svg" alt="">Câmbio Manual</li>
+                            <li><img src="./img/icones/capacete.svg" alt="">Inclinação Padrão</li>
+                        </ul>
+                        <img src="./img/motocicletas/int-small.jpg" alt="">
                     </div>
-                    <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+
+                    <input type="radio" name="produto" value="maverick" id="maverick">
+                    <label for="maverick">Steel Maverick <span>R$ 78.000</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs-b cor-8">
+                            <li><img src="./img/icones/velocidade.svg" alt="">895 cilindradas</li>
+                            <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                            <li><img src="./img/icones/motocicleta.svg" alt="">Câmbio Mecânico</li>
+                            <li><img src="./img/icones/capacete.svg" alt="">Inclinação Intermediária</li>
+                        </ul>
+                        <img src="./img/motocicletas/sm-small.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="orcamento-conteudo" id="orcamento-seguro">
+                    <h2 class="font-1-xs-b cor-5">Escolha o plano</h2>
+
+                    <input type="radio" name="produto" value="prata" id="prata">
+                    <label for="prata">Prata <span>R$ 799</span></label>
+
+                    <input type="radio" name="produto" value="ouro" id="ouro">
+                    <label for="ouro">Ouro <span>R$ 1199</span></label>
                 </div>
             </div>
-
-            <div class="lojas-item">
-                <img src="./img/lojas/sp.jpg" alt="Mapa marcando o endereço em Rua do Pernil, 171 - São Paulo, SP">
-                <div class="lojas-conteudo">
-                    <h3 class="font-1-xl">São Paulo</h3>
-                    <div class="lojas-dados font-2-s cor-8">
-                        <p>Rua do Pernil, 171</p>
-                        <p>São Paulo, SP</p>
-                    </div>
-                    <div class="lojas-dados font-2-s cor-8">
-                        <a href="mailto:sp@steelmane.com">sp@steelmane.com</a>
-                        <a href="tel:+551199999999">+55 11 99999-9999</a>
-                    </div>
-                    <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt=""> 08-18h de seg à dom</p>
+            <div class="orcamento-dados form">
+                <h2 class="font-1-xs-b cor-9 col-2">Dados Pessoais</h2>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
                 </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome">
+                </div>
+                <div class="col-2">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                </div>
+                <div class="col-2">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="contato@email.com">
+                </div>
+                <h2 class="font-1-xs-b cor-9 col-2">Entrega</h2>
+                <div>
+                    <label for="CEP">CEP</label>
+                    <input type="text" id="CEP" name="CEP">
+                </div>
+                <div>
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero">
+                </div>
+                <div>
+                    <label for="logradouro">Logradouro</label>
+                    <input type="text" id="logradouro" name="logradouro" placeholder="Rua, avenida, etc...">
+                </div>
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado">
+                </div>
+                <div class="checkbox col-2">
+                    <input type="checkbox" id="termos" name="termos" value="termos" required />
+                    <label for="termos">Li os <a href="./termos.html">termos e condições</a>.</label>
+                </div>
+                <button class="botao col-2">Solicitar Orçamento</button>
             </div>
-        </article>
+        </form>
 
     </main>
 
