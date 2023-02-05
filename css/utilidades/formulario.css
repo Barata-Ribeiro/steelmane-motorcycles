@@ -33,6 +33,9 @@
     background: var(--cor-0);
     box-shadow: 0 0 0 2px #fea;
 }
+.form input[type="checkbox"] {
+    margin: 0px;
+}
 
 @media (max-width: 600px) {
     .form {

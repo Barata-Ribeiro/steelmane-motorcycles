@@ -7,6 +7,7 @@
     <title>SteelMane Motorcycles - Motocicletas Personalizadas</title>
     <meta name="description" content="Motocicletas fabricadas utlizando um pacote estético e ergonômico sob medida que adaptam o ajuste e o acabamento da motocicleta ao seu proprietário.">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,13 +44,14 @@
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl">motocicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l">As SM são fabricadas utlizando um pacote estético e ergonômico sob medida que adaptam o ajuste e o acabamento da motocicleta ao seu proprietário.</p>
+                <h1 class="font-1-xxl cor-0">motocicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5">As SM são fabricadas utlizando um pacote estético e ergonômico sob medida que adaptam o ajuste e o acabamento da motocicleta ao seu proprietário.</p>
                 <a class="botao" href="./motocicletas.html">Selecione a sua</a>
             </div>
-            <div>
-                <img src="./img/fotos/introducao.jpg" alt="Motocicleta Cruiser Preta">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/motocicletas/stallion.jpg">
+                <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Motocicleta Cruiser Preta">
+            </picture>
         </div>
     </main>
 
@@ -58,21 +60,21 @@
         <ul>
             <li>
                 <a href="./motocicletas/intrepid.html">
-                    <img src="./img/motocicletas/intrepid-home.jpg" alt="Intrepid 261">
+                    <img src="./img/motocicletas/intrepid-home.jpg" width="920" height="1040" alt="Intrepid 261">
                     <h3 class="font-1-xl">Intrepid 261</h3>
                     <span class="font-2-m cor-8">R$ 55.000</span>
                 </a>
             </li>
             <li>
                 <a href="./motocicletas/stallion.html">
-                    <img src="./img/motocicletas/stallion-home.jpg" alt="Intrepid 261">
+                    <img src="./img/motocicletas/stallion-home.jpg" width="920" height="1040" alt="Intrepid 261">
                     <h3 class="font-1-xl">Black Stallion</h3>
                     <span class="font-2-m cor-8">R$ 105.000</span>
                 </a>
             </li>
             <li>
                 <a href="./motocicletas/maverick.html">
-                    <img src="./img/motocicletas/maverick-home.jpg" alt="Intrepid 261">
+                    <img src="./img/motocicletas/maverick-home.jpg" width="920" height="1040" alt="Intrepid 261">
                     <h3 class="font-1-xl">Steel Maverick</h3>
                     <span class="font-2-m cor-8">R$ 78.000</span>
                 </a>
@@ -89,19 +91,19 @@
                 <a class="link" href="./motocicletas.html">escolha um modelo</a>
                 <div class="tecnologia-vantagens">
                     <div>
-                        <img src="./img/icones/capacete.svg" alt="">
+                        <img src="./img/icones/capacete.svg" width="24" height="24" alt="">
                         <h3 class="font-1-m cor-0">Motor SteelMane 171</h3>
                         <p class="font-2-s cor-5">Os motores SteelMane de alta tecnologia de 4 tempos, 2 cilindros e alto torque, complementado por um sistema de escape único.</p>
                     </div>
                     <div>
-                        <img src="./img/icones/motocicleta.svg" alt="">
+                        <img src="./img/icones/motocicleta.svg" width="24" height="24" alt="">
                         <h3 class="font-1-m cor-0">Estrutura leve e ágil</h3>
                         <p class="font-2-s cor-5">Mainframe de aço com subestrutura de alumínio tarugo usinado e fibra de carbono, entregam um manuseio intuitivo e uma pilotagem leve e ágil.</p>
                     </div>
                 </div>
             </div>
             <div class="tecnologia-imagem">
-                <img src="./img/fotos/tecnologia.jpg" alt="">
+                <img src="./img/fotos/tecnologia.jpg" width="1400" height="2240" alt="">
             </div>
         </div>
     </article>
@@ -109,20 +111,20 @@
     <section class="parceiros aria-label=" Nossos Parceiros">
         <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
         <ul>
-            <li><img src="./img/parceiros/caravan.svg" alt="Caravan"></li>
-            <li><img src="./img/parceiros/ranek.svg" alt="ranek"></li>
-            <li><img src="./img/parceiros/handel.svg" alt="handel"></li>
-            <li><img src="./img/parceiros/dogs.svg" alt="dogs"></li>
-            <li><img src="./img/parceiros/lescone.svg" alt="lescone"></li>
-            <li><img src="./img/parceiros/flexblog.svg" alt="flexblog"></li>
-            <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast"></li>
-            <li><img src="./img/parceiros/surfbot.svg" alt="surfbot"></li>
+            <img src="./img/parceiros/caravan.svg" alt="Caravan" width="140" height="38">
+            <li><img src="./img/parceiros/ranek.svg" alt="Ranek" width="149" height="36"></li>
+            <li><img src="./img/parceiros/handel.svg" alt="Handel" width="140" height="50"></li>
+            <li><img src="./img/parceiros/dogs.svg" alt="Dogs" width="152" height="39"></li>
+            <li><img src="./img/parceiros/lescone.svg" alt="LeScone" width="208" height="41"></li>
+            <li><img src="./img/parceiros/flexblog.svg" alt="FlexBlog" width="165" height="38"></li>
+            <li><img src="./img/parceiros/wildbeast.svg" alt="Wildbeast" width="196" height="34"></li>
+            <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot" width="200" height="49"></li>
         </ul>
     </section>
 
     <section class="depoimento" aria-label="Depoimento">
         <div>
-            <img src="./img/fotos/depoimento.jpg" alt="Pessoa de capacete e rouba de motoqueiro encostado na motocicleta Black Stallion">
+            <img src="./img/fotos/depoimento.jpg" width="1560" height="1360" alt="Pessoa de capacete e rouba de motoqueiro encostado na motocicleta Black Stallion">
         </div>
         <div class="depoimento-conteudo">
             <blockquote class="font-1-xl cor-p5">
@@ -165,7 +167,7 @@
     <footer class="footer-bg">
         <div class="footer container">
             <div class="footer-logo">
-                <img src="./img/steelmane.svg" alt="Logo SteelMane">
+                <img src="./img/steelmane.svg" width="160" height="40" alt="Logo SteelMane">
                 <p class="font-2-r cor-7">A marca SteelMane Motors. é fictícia com fins educacionais. As imagens utilizadas são de terceiros e nenhum produto anunciado nesta plataforma é de maneira alguma, verídico.</p>
             </div>
             <div class="footer-contato">
@@ -178,13 +180,13 @@
                 </ul>
                 <div class="footer-redes">
                     <a href="https://www.instagram.com/">
-                        <img src="./img/redes/instagram.svg" alt="Instagram">
+                        <img src="./img/redes/instagram.svg" height="32" width="32" alt="Instagram">
                     </a>
                     <a href="https://www.facebook.com/">
-                        <img src="./img/redes/facebook.svg" alt="Facebook">
+                        <img src="./img/redes/facebook.svg" height="32" width="32" alt="Facebook">
                     </a>
                     <a href="https://www.youtube.com/">
-                        <img src="./img/redes/youtube.svg" alt="YouTube">
+                        <img src="./img/redes/youtube.svg" height="32" width="32" alt="YouTube">
                     </a>
                 </div>
             </div>
