@@ -44,3 +44,27 @@ function eventosPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventosPerguntas);
+
+// Galeria de Motocicletas
+
+const galeria = document.querySelectorAll(".motocicleta-imagens img");
+const galeriaContainer = document.querySelector(".motocicleta-imagens");
+
+function trocarImagem(event) {
+    const img = event.currentTarget;
+    const media = window.matchMedia("(min-width: 1000px)").matches;
+    if (media) {
+        galeriaContainer.prepend(img);
+    }
+}
+
+function eventosGaleria(img) {
+    img.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(eventosGaleria);
+
+// Animação
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
