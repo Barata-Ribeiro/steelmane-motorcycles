@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Merriweather:ital,wght@1,900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <script defer src="./js/script.js"></script>
+    <script defer src="./js/formulario.js"></script>
     <script>document.documentElement.classList.add('js')</script>
 </head>
 
@@ -77,7 +78,7 @@
                 </div>
             </section>
             <section class="contato-formulario" aria-label="Formulário">
-                <form class="form" action="./contato.html">
+                <form class="form" action="./enviar.php" method="post">
                     <div>
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" placeholder="Seu nome">
@@ -88,7 +89,7 @@
                     </div>
                     <div class="col-2">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="contato@email.com">
+                        <input type="email" id="email" name="email" placeholder="contato@email.com" required>
                     </div>
                     <div class="col-2">
                         <label for="mensagem">Mensagem</label>
