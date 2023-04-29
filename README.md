@@ -1,21 +1,55 @@
-# SteelMane Motorcycles
+# SteelMane Motorcycles Website
 
-## _Portuguese_
+This website was developed during the "UI Design for Beginners" and the "HTML and CSS for Beginners" courses from [Origamid](https://www.origamid.com). Instead of using the Bikcraft brand from the courses, I created the SteelMane Motorcycles brand as an alternative. The brand is entirely fictional, with the purpose of showcasing customized and totally original motorcycles.
 
-Site desenvolvido no curso de "UI Design para Iniciantes" em conjunto com o curso de "HTML e CSS para Iniciantes" da empresa Origamid (origamid.com).
+## Demo
 
-A marca SteelMane Motorcycles foi criada como alternativa a marca Bikcraft utilizada nos cursos. Ela é totalmente fictícia, mas seu propósito seria o de venda de motocicletas personalizadas e totalmente originais.
+[Click here](https://barata-ribeiro.github.io/steelmane-motorcycles/) to see a live demo of the website.
 
-Link do site: <https://barata-ribeiro.github.io/steelmane-motorcycles/>
+![SteelMane Motorcycles Website Screenshot](./img/screenshot.gif)
 
-O PHP não foi implementado por necessidade de hospedagem, portanto os formulários apenas redirecionam para a própria página com uma mensagem de erro, desenvolvida no JavaScript necessário para o funcionamento do formulário.
+## Technologies Used
 
-## _English_
+-   HTML
+-   CSS
+-   JavaScript (barely)
 
-Website developed during the "UI Design for Beginners" and the "HTML and CSS for Beginners" courses from Origamid (origamid.com).
+## Features
 
-I created the SteelMane Motorcycles brand as an alternative to the Bikcraft brand used during the courses. It is entirely fictional, but its purpose would be to sell customized and totally original motorcycles.
+-   Responsive design for various screen sizes
+-   Interactive navigation menu
+-   Image gallery showcasing each motorcycle model
+-   Motorcycle personal page, each with detailed info
+-   Insurance page, each with proper info
+-   Testimonial
+-   Contact forms
 
-Website link: <https://barata-ribeiro.github.io/steelmane-motorcycles/>
+## Known Limitations
 
-I have not implemented the PHP due to the need of a hosting service, so the forms only redirect to the same page with an error message developed in the JavaScript necessary for the form to work.
+I have not implemented PHP due to the need for a hosting service. As a result, the forms only redirect to the same page with an error message developed in JavaScript, which is necessary for the form to work.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/Barata-Ribeiro/steelmane-motorcycles.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd steelmane-motorcycles
+```
+
+3. Open the `index.html` file in your browser or use LiveServer.
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
